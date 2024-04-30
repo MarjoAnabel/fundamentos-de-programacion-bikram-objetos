@@ -90,7 +90,13 @@ const codError= O_Error.codigo
 const integrantes= Grupo.integrantes
 const nivelesTinta= Impresora.tinta
 const pixeles = Pantalla.pixeles
-const
+const especificaciones = Movil.especificaciones
+
+/*Modificacion de propiedades*/
+Grupo.numIntegrantes = 5
+Pantalla.dimensiones = '1920x1080'
+Led.encendido= false
+Movil.temperatura='20º'
 
 
 
